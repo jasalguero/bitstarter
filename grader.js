@@ -27,7 +27,7 @@ var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
 var REMOTE_FILE_DEFAULT = "graderHTML.html"
-var rest = require('./restler');
+var rest = require('restler');
 
 var assertFileExists = function(infile) {
     var instr = infile.toString();
